@@ -1,11 +1,15 @@
 # Aulas de JavaScript
-<p>Curso em vídeo (prof. Gustavo Guanabara)</p>
+> Curso em vídeo (prof. Gustavo Guanabara):nerd_face: :vulcan_salute:
 
-<p><img src="imgs/javascript.png" width="150px"> <img src="imgs/prog.jpg"  width="150px"></p>
 
-<ul type="circle">
-<li>Conhecendo JavaScript</li>
-<li>Primeiros passos</li>
-<li>Variáveis e tipos primitivos</li>
-<li>Tratamento de dados</li>
-</ul>
+
+><img src="imgs/javascript.png" width="150px">
+><img src="imgs/prog.jpg"  width="150px">
+
+
+
+* Conhecendo JavaScript
+* Primeiros passos
+* Variáveis e tipos primitivos
+* Tratamento de dados
+* Operadores

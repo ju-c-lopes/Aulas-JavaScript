@@ -1,0 +1,17 @@
+< menor
+> maior
+== igual
+!= diferente
+>= maior ou igual
+<= menor ou igual
+
+_____________________________________
+
+5 == 5  ->  TRUE
+5 == '5'  ->  TRUE
+5 === '5'  ->  FALSE
+5 !== '5'  ->  TRUE
+
+O operador == (igual) não testa o tipo do valor ou da variável
+
+O operador de identidade ou operador de igualdade restrita === neste caso, ele testa se os valores que estão sendo testados são IDÊNTICOS.
