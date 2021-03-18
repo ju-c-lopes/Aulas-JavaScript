@@ -3,8 +3,7 @@
 
 
 
-><img src="imgs/javascript.png" width="150px">
-><img src="imgs/prog.jpg"  width="150px">
+><img src="imgs/javascript.png" width="150px"> <img src="imgs/prog.jpg"  width="150px">
 
 
 
@@ -13,3 +12,4 @@
 * Variáveis e tipos primitivos
 * Tratamento de dados
 * Operadores
+* Entendendo DOM e criando eventos

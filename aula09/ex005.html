@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiros passos com DOM</title>
+    <style>
+        body {
+            background: rgb(111, 111, 211);
+            color: white;
+            font: normal 18pt Arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Iniciando estudos com DOM</h1>
+    <!-- DOM (Document Object Model) Conjunto de objetos dentro do navegador que dão acesso aos componentes internos do website -->
+    <p>Aqui vai o resultado</p>
+    <p>Aprendendo a usar o <strong>DOM</strong> em JavaScript</p>
+    <div id="msg">Clique em mim</div><br>
+    <div name="msg">Clique em mim</div><br>
+    <div class="msg">Clique em mim</div><br>
+    <script>
+        // Selecionando Elementos por marca
+        var p1 = window.document.getElementsByTagName('p')[0] // o Zero (0) indica que estamos selecionando o primeiro parágrafo, se quisessemos o segundo, colocariamos 1, e assim sucessivamente...
+        
+        window.document.write('Está escrito assim: ' + p1.innerText + '<br>')
+        p1.style.color = 'blue'
+        
+        var p2 = window.document.getElementsByTagName('p')[1]
+        document.write(p2.innerHTML)
+
+        var d = window.document.getElementById('msg')
+        d.style.background = 'darkslategray'
+         d.innerText = 'Estou aguardando...'
+        window.document.getElementById('msg').innerText = 'Hello'
+
+        var d1 = window.document.getElementsByName('msg')
+        d1.innerText = 'aeeee, é nóis'
+
+        var d2 = window.document.getElementsByClassName('msg')[0]
+        d2.innerText = 'FMZ'
+
+        var dd = window.document.querySelector("div#msg")
+        dd.style.color = 'yellow'
+
+    </script>
+</body>
+</html>

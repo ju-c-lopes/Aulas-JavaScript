@@ -1,0 +1,45 @@
+Devemos aprender a fazer a árvore DOM do nosso site
+
+Basicamente ela começa da raiz dentro do navegador, que é conhecida como window.
+
+Tudo dentro do JavaScript está dentro de um objeto chamado window (janela)
+
+window contem:
+
+-- LOCATION: a localização do site, URL, pagina atual, pagina anterior
+
+-- DOCUMENT: Documento atual .. Em Document, temos o objeto HTML, que contém mais objetos, como, head, body
+
+-- History: navegação dentro do site
+
+================================================
+
+Head e Body são filhos (child) de HTML que é pai (parent)
+
+sendo assim:
+
+================== WINDOW ========================
+                     |
+                     V
+==== LOCATION === DOCUMENT === HISTORY ====
+                     |
+                     V
+=================== HTML ========================
+                     |
+        ---------------------------
+        |                         |
+        V                         V
+===== HEAD ===================== BODY ===========
+        |                         |
+    ---------                     |
+    |       |                     |
+    V       V                     |
+== META == TITLE ==               |
+                                  |
+                    ------------------------------
+                    |         |         |        |
+                    V         V         V        V
+                === H1 ====== P ======= P ===== DIV ===
+                                        |
+                                        V
+                                ===== STRONG =====

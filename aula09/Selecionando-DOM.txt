@@ -1,0 +1,9 @@
+Selecionando elementos no DOM
+
+> Por Marca: getElementsByTagName()[]
+
+> Por ID: getElementById()
+
+> Por Nome: getElementsByName()[]
+
+> Por Classe: getElementsByClassName()
