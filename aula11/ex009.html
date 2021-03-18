@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br
+">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NACIONALITY</title>
+    <style>
+        body {
+            text-align: center;
+        }
+        #monitor {
+            margin-top: 10px;
+            font: normal 18pt Arial;
+            margin-left: auto;
+            margin-right: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 400px;
+            height: 100px;
+        }
+        #bt {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Sua Nacionalidade</h1>
+    <p>Em qual país você nasceu?</p>
+    <input type="text" id="pais"><br>
+    <input type="button" value="ok" onclick="validar()" id="bt">
+
+    <div id="monitor"><p></p></div>
+
+    <script>
+        var paises = window.document.querySelector('input#pais')
+        var resultado = window.document.querySelector('div#monitor')        
+
+        function validar() {
+            // Esta é a sintaxe para o comando toLowerCase()
+            //var look = String(paises.value).toLowerCase()
+            
+            if (String(paises.value).toLowerCase() == "brasil") {
+                resultado.innerHTML = 'Você é Brasileiro'
+                resultado.style.background = 'green'
+            } else {
+                resultado.innerHTML = 'Você é Estrangeiro'
+                resultado.style.background = 'red'
+            }
+        }
+    </script>
+
+</body>
+</html>
