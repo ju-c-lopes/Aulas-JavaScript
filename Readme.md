@@ -14,3 +14,4 @@
 * Operadores
 * Entendendo DOM e criando eventos
 * Condições
+* Exercicios (Relógio, Verificador de Idade)

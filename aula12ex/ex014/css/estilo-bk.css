@@ -1,0 +1,79 @@
+@keyframes fadeout {
+    from {opacity: 1;}
+    to {opacity: 0;}
+}
+
+@keyframes fadein {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes entra1 {
+    from {background: #352f27;}
+    to {background: #ebcc75;}
+}
+
+@keyframes entra2 {
+    from {background: #ebcc75;}
+    to {background: #a77463;}
+}
+
+@keyframes entra3 {
+    from {background: #a77463;}
+    to {background: #013756;}
+}
+
+@keyframes entra4 {
+    from {background: #013756;}
+    to {background: #352f27;}
+}
+
+header {
+    font: normal 20pt Arial;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 2px rgb(82, 80, 80);
+}
+
+section {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 500px;
+    margin: auto;
+    text-align: center;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.322);
+}
+
+footer {
+    font: normal 12pt Arial;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+    text-align: center;
+}
+
+#msg {
+    margin: 10px;
+    padding-bottom: 10px;
+    font: bolder;
+    font-size: 20pt;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(148, 141, 141);
+}
+
+#foto {
+    margin-left: auto;
+    margin-right: auto;
+    
+    width: 295px;
+    height: 295px;
+    border-style: solid;
+    border-radius: 295px;
+    border-width: 0px thick thick 0px;
+    border-color: rgb(0, 0, 0);
+}
+
+#imagem {
+    margin-top: -2px;
+    margin-left: -2px;
+}

@@ -1,0 +1,15 @@
+@keyframes fadeIn {
+    0% {background: chocolate;}
+    100% {background: red;}
+}
+
+body {
+    text-align: center;
+    font: normal 20pt Arial;
+}
+
+.entra {
+    animation: fadeIn ease-in-out 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
