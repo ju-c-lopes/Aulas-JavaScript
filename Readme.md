@@ -15,3 +15,6 @@
 * Entendendo DOM e criando eventos
 * Condições
 * Exercicios (Relógio, Verificador de Idade)
+* Repetições
+* Arrays
+* Exercício final (verificar números)

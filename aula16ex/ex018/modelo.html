@@ -6,23 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/estilo.css" type="text/css">
-    <title>Modelo de Exercício</title>
+    <title>Analisador de Números</title>
 </head>
 <body>
 
     <header>
         <h1>
-            Título
+            Analisador de números
         </h1>
     </header>
 
     <section>
         <div>
-            Teste 1
+            <p>Número entre 1 a 100 <input type="number" name="caixa" id="caixa"> <input type="button" value="Adicionar" onclick="add()"></p>
+            <select id="tela" size="10">
+            </select>
+            <input type="button" value="Finalizar" onclick="calc()">
         </div>
 
-        <div>
-            Teste 2
+        <div id="res">
+            <p></p>
         </div>
     </section>
 

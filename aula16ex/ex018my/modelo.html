@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/estilo.css" type="text/css">
+    <title>Analisador de Números</title>
+</head>
+<body>
+
+    <header>
+        <h1>
+            Analisador de números
+        </h1>
+    </header>
+
+    <section>
+        <div>
+            Número (entre 1 a 100):
+            <input type="number" name="caixa" id="caixa">
+            <input type="button" value="Adicionar" onclick="add()">
+            <select name="tela" id="tela" size="10">
+                <option>Entre com os números</option>
+            </select><br>
+            <input type="button" value="Finalizar" onclick="calc()">
+            <input type="button" name="bt" id="bt" value="Novo Cálculo" onclick="limpar()">
+        </div>
+
+        <div id="res">
+            <p id="l1"></p>
+            <p id="l2"></p>
+            <p id="l3"></p>
+            <p id="l4"></p>
+            <p id="l5"></p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&reg; <em>Juclops Incorporation Ltd.</em></p>
+    </footer>
+
+    <script src="javascript/script.js"></script>
+</body>
+</html>

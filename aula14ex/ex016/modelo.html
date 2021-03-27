@@ -11,21 +11,23 @@
 <body>
 
     <header>
-        <h1>
+        <h1 id="tit">
             Título
         </h1>
     </header>
 
     <section>
-        <div>
-            Teste 1
+        <div id="entradados">
+            <p>Inicio: <input type="number" name="inicio" id="inicio"></p>
+            <p>Fim: <input type="number" name="fim" id="fim"></p>
+            <p>Passo: <input type="number" name="passo" id="passo"></p>
+            <input id="bt" type="button" value="Contar" onclick="result()">
         </div>
 
-        <div>
-            Teste 2
+        <div id="resultado">
+            Preparando a contagem...
         </div>
     </section>
-
     <footer>
         <p>&reg; <em>Juclops Incorporation Ltd.</em></p>
     </footer>

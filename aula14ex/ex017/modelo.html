@@ -12,17 +12,21 @@
 
     <header>
         <h1>
-            Título
+            Tabuada
         </h1>
     </header>
 
     <section>
-        <div>
-            Teste 1
+        <div id="first">
+            <p>Tabuada de qual número deseja consultar?</p>
+            <p><input type="number" name="tab" id="tab"> 
+            <input type="button" value="Consultar" onclick="tabuada()"></p>
         </div>
 
         <div>
-            Teste 2
+            <select name="res" id="res" size="10">
+                <option>Digite um número acima</option>
+            </select>
         </div>
     </section>
 
